@@ -1,5 +1,6 @@
 @extends('content.index')
 @section('sub-content')
+<div class="card-body">
 <table class="table table-bordered">
   <thead>                  
     <tr>
@@ -52,4 +53,5 @@
     </tr>
   </tbody>
 </table>
+</div>
 @endsection
